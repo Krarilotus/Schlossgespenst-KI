@@ -1,7 +1,7 @@
 name: Schlossgespenst-KI
 display-name: Schlossgespenst AI
 author: Schlossgespenst
-version: 1.0.3
+version: 1.0.4
 dependencies:
   Schlossgespenst-KI-files: ^1.0.0
   ucp2-ai-files: ^2.15.1
@@ -9,3 +9,15 @@ dependencies:
   graphicsApiReplacer: ^1.2.0
   framework: ">=3.0.4"
   frontend: ">=1.0.5"
+tags:
+- ai
+- aic
+- aiv
+family:
+- name: schlossgespenst-ai
+  root: true
+capabilities:
+  files: false
+  code: false
+  configuration: true
+  options: false
